@@ -79,7 +79,7 @@ public class Flight {
 	* If the flight becomes full, the boolean attribute describing whether the flight if full becomes true. 
 	* Assume parameter is positive.
 	* @param num The number of passengers to be added to this flight.
-	* @return True if the received flight is equal to this flight.
+	* @return True if the passengers were added to the flight.
 	*/ 
 	public boolean addPassengers(int num){
 		int passengersSum = num + _noOfPassengers;
